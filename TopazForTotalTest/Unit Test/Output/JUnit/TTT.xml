@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 18.3.1.v20180327-2102_9?>
+<!--Topaz for Total Test 18.3.1.v20180327-2102_9 Dec 6, 2018 1:08:46 PM-->
+<testsuites>
+  <testsuite errors="0" failures="1" name="Project: 'TopazForTotalTest' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase1'" tests="3">
+    <testcase classname="Project: 'TopazForTotalTest' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase1'" name="Check for EMP_TYPE"/>
+    <testcase classname="Project: 'TopazForTotalTest' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase1'" name="Check for SALES_AMOUNT"/>
+    <testcase classname="Project: 'TopazForTotalTest' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase1'" name="Check for COMM_TOTAL">
+      <failure>Check for COMM_TOTAL failed
+
+Actual Value:    		10000.00
+
+Expected Value:  3301.00</failure>
+    </testcase>
+  </testsuite>
+  <testsuite errors="0" failures="0" name="Project: 'TopazForTotalTest' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase2'" tests="3">
+    <testcase classname="Project: 'TopazForTotalTest' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase2'" name="Check for EMP_TYPE"/>
+    <testcase classname="Project: 'TopazForTotalTest' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase2'" name="Check for SALES_AMOUNT"/>
+    <testcase classname="Project: 'TopazForTotalTest' Scenario: 'CWXTSUBC_Scenario' Testcase: 'CWXTSUBCCase2'" name="Check for COMM_TOTAL"/>
+  </testsuite>
+</testsuites>
